@@ -10,12 +10,22 @@ package maquinacafe_cod;
  * @author Damian
  */
 public class MaquinaCafe_Cod {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    
+public static void main(String[] args) {
+        producto p1=new producto(2,"chocolate",2,1);
+        producto p2=new producto(2,"te",0,2);
+        producto p3=new producto(2,"cafe",1,3);
+        
+            
+                producto.productos.add(p1);
+                producto.productos.add(p2);
+                producto.productos.add(p3);
+                
+                
+            
+            
+            Display.verOpciones();
+            
     }
     
 }
